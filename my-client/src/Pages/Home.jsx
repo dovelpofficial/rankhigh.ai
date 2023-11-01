@@ -1,5 +1,6 @@
 import React from 'react'
-import CardHome from '../components/CardHome'
+import CardHome from '../components/CardHome';
+import Footer from '../components/Footer';
 
 const Home = () => {
   return (
@@ -34,6 +35,7 @@ const Home = () => {
       {/* this is the card section  */}
 
       <CardHome />
+      <Footer/>
     </div>
 
   )
