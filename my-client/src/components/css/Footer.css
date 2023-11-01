@@ -1,0 +1,124 @@
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 10px;
+    background-color: black;
+    margin-top: 50px;
+  }
+  
+  .Logo {
+    grid-column: 1;
+    justify-self: start;
+    align-self: center;
+  }
+  h3 img{
+    height: 50px;
+  }
+  
+  .office{
+    grid-column: 2;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .office h3{
+    font-size: 30px;
+  }
+  .office li{
+    font-size: 20px;
+  }
+  h3{
+    margin-left: 35px;
+  }
+  .Links {
+    grid-column: 3;
+    color: white;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .Links li :hover{
+    color: white;
+    text-decoration: underline;
+  }
+  .Links h3{
+    font-size: 30px;
+    margin-right: 50px;
+  }
+  .Links li{
+    font-size: 20px;
+  }
+  .touch h3{
+    font-size: 30px;
+  }
+  
+  .touch {
+    grid-column: 4;
+    justify-self: end;
+    align-self: center;
+    color: white;
+  }
+  .touch{
+    margin-bottom: 50px;
+   margin-right: 70px;
+  }
+  .touch h3{
+    margin-left: 50px;
+  }
+  
+  .sociallinks {
+    display: flex;
+    justify-content: center;
+  }
+  li{
+    list-style-type: none;
+  }
+  .office li:nth-child(1){
+    margin-top: 10px;
+  }
+  .copyright{
+    color: white;
+    font-size: 12px;
+    grid-column: 2;
+    padding-bottom: 30px;
+  }
+  .navlink{
+    text-decoration: none;
+    color: white;
+  }
+  .social-icon{
+  color: white;
+  }
+  .nav-icon{
+    padding: 3px;
+  }
+  .touch ul{
+    margin-top: 10px;
+    gap: 10px;
+  }
+  @media screen and (max-width: 768px) {
+    .footer {
+      grid-template-columns: 7fr;
+      grid-gap: 0;
+      width: 100%;
+    }
+  
+    .Logo {
+      justify-self: center;
+    }
+  
+    .office,
+    .Links,
+    .touch {
+      justify-self: center;
+    }
+  
+    .sociallinks {
+      display: block;
+    }
+  
+    .social-icon {
+      margin: 0 5px;
+    }
+  }
+  
