@@ -1,0 +1,30 @@
+{
+    "card": [
+        {
+            "id": "1",
+            "title": "Seo Studio",
+            "description": " Prepare to exert unprecedented control over the search engine optimisation of your website! A complete set of tools are available in our SEO Studio to evaluate how well your website performs in search results around the world. You can find useful insights and optimise your content to efficiently reach your target audience with only a few clicks.",
+            "button": "Click For Use"
+        },
+        {
+            "id": "2",
+            "title": "Reports & Tools",
+            "description": " It's important to understand how well your website performs in search engines, but it doesn't have to be difficult. You may create comprehensive, succinct, and simple-to-understand reports with our SEO Reports and Tools Platform. You will receive practical recommendations from these reports to improve the performance and positioning of your website.",
+            "button": "Click For Use"
+        },
+        {
+            "id": "3",
+            "title": "Sumo SEO Tools",
+            "description": " Having the appropriate tools is crucial for SEO success. Your go-to SEO tool script, SumoSEOTools provides a variety of potent tools to assess, gauge, and track the performance of your website. You may confidently optimise your website with our assistance to move up the search engine results pages and draw in more organic traffic.",
+            "button": "Click For Use"
+        },
+        {
+            "id": "4",
+            "title": "66 Toolkit",
+            "description": "  Calling all web designers and developers! The 66toolkit is the best PHP script and includes more than 425 web tools in total. 66toolkit has you covered whether you need help with regular activities or are functioning on several platforms. With the help of this amazing toolkit, you can streamline your processes and increase your productivity.",
+            "button": "Click For Use"
+        }
+    ]
+}
+
+
