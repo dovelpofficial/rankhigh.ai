@@ -14,8 +14,8 @@ const CardHome = () => {
         <>
 
             {/* <section className="parent-card-containor"> */}
-
-                <div className="card-containor   grid   gap-4  px-4  md:grid-cols-2      lg:grid-cols-4      sm:grid-flow-col    ">
+<div className='px-10 overflow-hidden'>
+                <div className="card-containor   grid   gap-4  overflow-hidden  md:grid-cols-2  sm:grid-cols-1   lg:grid-cols-4        ">
                     {data?.card?.map((item, index) => (
                         <div key={index} className="card overflow-hidden">
 
@@ -37,7 +37,7 @@ const CardHome = () => {
                     ))}
                 </div>
             {/* </section> */}
-
+            </div>
 
         </>
     );
